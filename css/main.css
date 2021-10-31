@@ -1,3 +1,7 @@
+html {
+  position: relative;
+  /* min-height: 100%; */
+}
 * {
   padding: 0;
   margin: 0;
@@ -74,6 +78,7 @@ select:focus {
   display: block;
   margin-top: 15px;
   color: #00ffd0;
+  /* background-color: rgba(1, 1, 2, 0.6); */
   cursor: pointer;
   font-weight: bold;
   text-decoration: none;
@@ -108,6 +113,17 @@ select:focus {
   font-size: 20px;
 }
 
+.sub1 {
+  width: 90px;
+  color: #202020;
+  background: orange;
+  font-size: 15px;
+  height: 35px;
+  margin: 20px;
+  padding: 10px;
+  width: 100px;
+}
+
 .sub {
   width: 40%;
   background-color: #06fb14;
@@ -129,7 +145,14 @@ select:focus {
   border-top: 1px solid;
   border-color: #323232;
   background-color: #202020;
+  /* position: relative;
+  clear: both;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;*/
 }
+
 .footer a {
   margin: 25px;
   color: white;
